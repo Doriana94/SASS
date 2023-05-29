@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  text-align: center;
+  border: 1px solid red;
+  padding: 20px;
+}
+div h1 {
+  display: inline-block;
+  color: green;
+  -webkit-text-decoration: 1.5px underline blue;
+          text-decoration: 1.5px underline blue;
+}
+div section {
+  display: flex;
+}
+div section article {
+  border: 1px solid green;
+  padding: 20px;
+}
+div section article:nth-child(odd) {
+  color: blue;
+}
+div section article:nth-child(even) {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
